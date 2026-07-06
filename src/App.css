@@ -44,12 +44,15 @@ html, body, #root {
 .app-body {
   display: flex;
   flex: 1;
+  align-items: stretch;
 }
 
 .sidebar {
   width: 220px;
+  min-height: 100%;
   background: #1f1f1f;
   padding: 20px 16px;
+  flex-shrink: 0;
 }
 
 .sidebar-nav {

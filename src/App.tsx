@@ -13,21 +13,23 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      <Header appName="La mia App" userName={userName} setUserName={setUserName} />
+      <div className="app-shell">
+        <Header appName="La mia App" userName={userName} setUserName={setUserName} />
 
-      <div className="app-body">
-        <Sidebar />
-        <main className="app-main">
-          <Routes>
-            <Route path="/" element={<Navigate to="/home" replace />} />
-            <Route path="/home" element={<HomePage />} />
-            <Route path="/registration" element={<RegistrationPage onRegister={setUserName} />} />
-            <Route path="/products" element={<ProductsPage />} />
-          </Routes>
-        </main>
+        <div className="app-body">
+          <Sidebar />
+          <main className="app-main">
+            <Routes>
+              <Route path="/" element={<Navigate to="/home" replace />} />
+              <Route path="/home" element={<HomePage />} />
+              <Route path="/registration" element={<RegistrationPage onRegister={setUserName} />} />
+              <Route path="/products" element={<ProductsPage />} />
+            </Routes>
+          </main>
+        </div>
+
+        <Footer />
       </div>
-
-      <Footer />
     </BrowserRouter>
   );
 }

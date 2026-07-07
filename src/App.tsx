@@ -34,8 +34,3 @@ export default function App() {
   );
 }
 
-
-// In sintesi, questo codice definisce il componente principale dell'applicazione, 
-// che utilizza React Router per gestire le rotte e il layout dell'applicazione. 
-// Il componente Layout viene utilizzato come elemento principale per tutte le rotte, 
-// e lo stato userName viene gestito tramite il hook useState.

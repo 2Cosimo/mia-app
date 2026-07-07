@@ -1,7 +1,3 @@
-export interface ProductRating {
-  rate: number;
-  count: number;
-}
 
 export interface Product {
   id: number;
@@ -9,8 +5,6 @@ export interface Product {
   category: string;
   price: number;
   description: string;
-  image: string;
-  rating: ProductRating;
 }
 
 

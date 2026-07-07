@@ -29,7 +29,3 @@ export default function HomePage() {
     </section> 
     ); 
 } 
-
-// In sintesi, questo codice definisce il componente HomePage che rappresenta la pagina principale dell'applicazione. 
-// Il componente HomePage utilizza una struttura a griglia per visualizzare le informazioni principali dell'applicazione, 
-// come l'immagine principale e le schede informative.

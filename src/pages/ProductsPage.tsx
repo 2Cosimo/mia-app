@@ -50,9 +50,3 @@ export default function ProductsPage() {
   );
 }
 
-// In sintesi, questo codice definisce il componente ProductsPage 
-// che rappresenta la pagina dei prodotti dell'applicazione.
-// Il componente utilizza il hook useEffect per effettuare una chiamata 
-// all'API al montaggio del componente e ottenere i dati dei prodotti. 
-// I dati ottenuti vengono memorizzati nello stato products e visualizzati 
-// in una lista di prodotti nella pagina.

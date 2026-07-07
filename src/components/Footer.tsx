@@ -6,6 +6,3 @@ export default function Footer() {
             </footer>
     )
 }
-
-// In sintesi, questo codice definisce il componente Footer 
-// che rappresenta il piè di pagina dell'applicazione.

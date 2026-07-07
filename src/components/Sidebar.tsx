@@ -15,8 +15,3 @@ export default function Sidebar() {
     ); 
 } 
 
-// In sintesi, questo codice definisce il componente Sidebar che rappresenta la barra laterale dell'applicazione. 
-// Il componente Sidebar utilizza il componente NavLink di React Router 
-// per creare i link di navigazione per le pagine Home, Registrazione e Prodotti. 
-// La classe active viene applicata al link attivo per evidenziare la pagina corrente.
-

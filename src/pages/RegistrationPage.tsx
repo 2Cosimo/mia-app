@@ -72,12 +72,3 @@ return (
 ); 
 
 };
-
-// In sintesi, questo codice definisce il componente 
-// RegistrationPage che rappresenta la pagina di registrazione dell'utente.
-// Il componente RegistrationPage riceve la proprietà 
-// onRegister e utilizza lo stato per gestire i campi del modulo e gli errori di validazione. 
-// La funzione validate viene utilizzata per validare i campi del modulo, 
-// mentre la funzione handleSubmit viene chiamata quando l'utente invia il modulo. 
-// Se la validazione ha successo, la funzione onRegister viene chiamata con il nome 
-// dell'utente registrato e i campi del modulo vengono resettati.
